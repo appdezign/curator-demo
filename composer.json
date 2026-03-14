@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "appdezign/curator-morph-many",
+    "name": "appdezign/curator-demo",
     "description": "The skeleton application for the Laravel framework.",
     "version": "1.0.0",
     "type": "project",
