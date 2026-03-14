@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources\Pages\Schemas;
 
+use App\Filament\Components\Forms\MyCuratorPicker;
 use Awcodes\Curator\Components\Forms\CuratorPicker;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
@@ -20,8 +21,8 @@ class PageForm
 	            RichEditor::make('body')
 		            ->columnSpanFull(),
 
-	            CuratorPicker::make('gallery_ids')
-		            ->label('gallery')
+	            MyCuratorPicker::make('gallery_ids')
+		            ->label('Gallery (updated CuratorPicker)')
 		            ->columnSpanFull()
 		            ->multiple()
 		            ->maxItems(24)

@@ -21,7 +21,7 @@ class BlogForm
 		            ->columnSpanFull(),
 
 	            CuratorPicker::make('gallery_ids')
-		            ->label('gallery')
+		            ->label('Gallery (original CuratorPicker)')
 		            ->columnSpanFull()
 		            ->multiple()
 		            ->maxItems(24)
